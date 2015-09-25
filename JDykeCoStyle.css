@@ -1,0 +1,55 @@
+/*
+      Style Sheet for JDykeCo Dry Run 
+      Created on : Jul 8, 2015, 12:05:35 PM
+      Author     : Josh
+*/
+body {
+    background-color: lightgray;
+}
+
+/*
+    Main Logo Style
+*/    
+#mainLogo img {
+    height: 135px;
+    float: right;
+    border-radius: 3em;
+}
+
+/*
+    Navigation Style
+*/
+
+nav {
+    margin-left: auto;
+    margin-right: auto;
+    width: 30em; 
+    clear: both;
+}
+
+nav ol {
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+nav ol li{
+    display: inline;
+    margin-left: auto;
+    margin-right: auto;
+    list-style-type: none;
+    padding-left: 1em;
+    padding-right: 1em;
+    border: crimson 5px solid;
+    white-space: nowrap;
+}
+
+/*
+    Footer Style
+*/
+
+footer p{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: right;
+}
